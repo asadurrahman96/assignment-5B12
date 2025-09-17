@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+
+<div class="bg-white text-black py-4 px-8 flex justify-between items-center">
+    <div class="flex items-center space-x-3">
+        <img src="assets/logo.png" alt="Logo" class="w-8 h-8">
+        <h1 class="text-xl font-semibold">Emergency <br> Service</h1>
+    </div>
+    <div class="flex items-center space-x-6">
+        <div class="flex space-x-1 bg-gray-100 rounded-xl w-20 h-10">
+            <img src="assets/heart.png" alt="Heart" class="w-5 h-5">
+            <span id="heartCount">0</span>
+        </div>
+        <div class="flex items-center space-x-1 bg-gray-100 rounded-xl w-20 h-10">
+            <span id="coinCount">100</span>
+            <img src="assets/coin.png" class="w-5 h-auto" alt="Coin">
+        </div>
+        <div class="flex items-center space-x-1 bg-green-600 text-white rounded-xl w-20 h-10">
+            <span>Copy <span id="copyCount">0</span></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-gradient-to-r from-green-400 via-green-500 to-green-600 py-12 text-center text-white">
+    <img src="assets/logo.png" alt="Logo" class="mx-auto w-20 h-20 mb-4">
+    <h2 class="text-3xl font-semibold mb-2">Emergency Hotline at Your Fingertips</h2>
+    <p class="text-lg">Connecting You to the Help You Need Fast!</p>
+</div>
+
+
+
+<script src="./js/index.js"></script>
+</body>
+</html>
